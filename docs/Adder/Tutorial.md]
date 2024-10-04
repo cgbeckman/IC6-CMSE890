@@ -1,0 +1,16 @@
+# Tutorial 
+
+This page will walk you through how to use the Adder Function. 
+
+Before starting this tutorial, make sure the adder function has been downloaded and saved as "adder.py".
+## Using a python interface
+1) Open a new script in python. This can be done with an interface such as VSCode, or Conda.
+3) Import the adder function with the line: import adder 
+2) For this tutorial, we will use 1 and 2 as our inputs. Call the adder function with the line: z=adder(1,2)
+3) Run the script. The output should be 3, as 1+2=3. 
+
+## Using command line/terminal
+1) Go to the directory where adder.py is saved.
+2) In your command line, type <adder(1,2)>
+3) Hit enter.
+4) The output should be 3 (1+2=3).
