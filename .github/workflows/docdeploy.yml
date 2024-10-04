@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material  
       - name: Build MkDocs
-        run: mkdocs build --clean
+        run: mkdocs build --clean docs/mkdocs.yml
     
 
       - name: Deploy to GitHub Pages
