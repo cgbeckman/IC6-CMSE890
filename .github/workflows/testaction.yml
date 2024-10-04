@@ -26,7 +26,9 @@ jobs:
         run: |
           pytest test_example.py
       - name: test digits 
+        run: |
           pytest test_have_digits.py
       - name: test thermostat function 
+        run: |
           pytest test_my_thermo.py
           
