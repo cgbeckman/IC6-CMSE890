@@ -1,0 +1,32 @@
+name: Run tests
+
+on: [push]
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.8'  # Specify your desired Python version
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: test adder function
+        run: |
+          pytest  test_adder.py
+      - name: run area and perimeter test
+        run: |
+          pytest test_example.py
+      - name: test digits 
+          pytest test_have_digits.py
+      - name: test thermostat function 
+          pytest test_my_thermo.py
+          
