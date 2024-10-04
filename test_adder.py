@@ -2,11 +2,7 @@
 # https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html
 
 import pytest
-from example_functions import my_adder
-
-#test function
-
-#@pytest.mark.parametrize("test_input, expected", ["1,1,1", 3])
+from adder import my_adder
 
 def test_adder():
 	assert my_adder(1,1,1) == 3
