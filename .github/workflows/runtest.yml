@@ -2,12 +2,7 @@ name: Python package
 
 on:
   push:
-    branches:
-      - main  # Change this to your default branch if it's different
-  pull_request:
-    branches:
-      - main  # Change this to your default branch if it's different
-
+    
 jobs:
   test:
     runs-on: ubuntu-latest
