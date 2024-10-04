@@ -1,5 +1,5 @@
 site_name: CMSE890 Example Function Documentation
-docs_dir: docs
+
 theme:
      name: readthedocs     
 
