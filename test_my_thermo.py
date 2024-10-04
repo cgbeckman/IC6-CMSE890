@@ -1,5 +1,5 @@
 import pytest 
-from example_functions import my_thermo_stat
+from thermostat import my_thermo_stat
 
 def test_my_thermo():
 	assert my_thermo_stat(85, 99) == 'Heat'

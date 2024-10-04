@@ -16,6 +16,5 @@ def perimeter_function(w : float | int,h : float | int) -> float | int:
             Made by Andrew Fullard
             Edited by Cate Beckman for CMSE 890
     """
-
-        perimeter = 2*w+2*h
-	return perimeter
+    perimeter = 2*w+2*h
+    return perimeter
