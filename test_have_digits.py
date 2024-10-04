@@ -1,5 +1,5 @@
 import pytest 
-from example_functions import have_digits
+from have_digits import have_digits
 
 def test_digits():
 	assert have_digits("hello") == 0
