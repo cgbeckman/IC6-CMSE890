@@ -3,10 +3,6 @@ site_name: CMSE890 Example Function Documentation
 theme:
      name: readthedocs     
 
-plugins:
-- search
-- mkdocstrings
-
 nav:
   - Home: index.md
   - Adder:
@@ -35,3 +31,6 @@ nav:
       - Page 3: Rectangle_Perimeter/Tutorials.md
       - Page 4: Rectangle_Perimeter/References.md
       
+plugins:
+- search
+- mkdocstrings
