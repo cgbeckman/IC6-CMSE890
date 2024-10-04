@@ -6,3 +6,32 @@ theme:
 plugins:
 - search
 - mkdocstrings
+
+nav:
+  - Home: index.md
+  - Adder:
+      - Page 1: Adder/Explanation.md
+      - Page 2: Adder/How_To_Guide.md
+      - Page 3: Adder/Tutorial.md
+      - Page 4: Adder/Reference.md
+  - Digits:
+      - Page 1: Digits/Explanation.md
+      - Page 2: Digits/How_To_Guide.md
+      - Page 3: Digits/Tutorial.md
+      - Page 4: Digits/References.md
+  - Rectangle_Area:
+      - Page 1: Rectangle_Area/Explanation.md
+      - Page 2: Rectangle_Area/How_To_Guide.md
+      - Page 3: Rectangle_Area/Tutorial.md
+      - Page 4: Rectangle_Area/References.md
+ - Thermostat:
+      - Page 1: Thermostat/Explanation.md
+      - Page 2: Thermostat/How-To_Guide.md
+      - Page 3: Thermostat/Tutorials.md
+      - Page 4: Thermostat/References.md
+  - Rectangle_Perimeter:
+      - Page 1: Rectangle_Perimeter/Explanation.md
+      - Page 2: Rectangle_Perimeter/How-to_Guide.md
+      - Page 3: Rectangle_Perimeter/Tutorials.md
+      - Page 4: Rectangle_Perimeter/References.md
+      
