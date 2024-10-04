@@ -2,7 +2,7 @@
 # https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html
 
 import pytest
-from example_functions import my_adder
+from adder.py import my_adder
 
 #test function
 
