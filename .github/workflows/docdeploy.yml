@@ -30,7 +30,7 @@ jobs:
         run: cat docs/mkdocs.yml  # Verify the mkdocs.yml file
         
       - name: Build MkDocs
-        run: mkdocs build --clean -f mkdocs.yml
+        run: mkdocs build --clean -f docs/mkdocs.yml --verbose
     
 
       - name: Deploy to GitHub Pages
